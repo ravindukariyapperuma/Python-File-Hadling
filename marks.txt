@@ -1,1 +1,5 @@
-index no : 1	, 10, 20 (Total = 30)
+index no : 10	subject 1 marks : 45	subject 2 marks : 85	subject 3 marks : 75	 (Total = 205) (Avarage = 68.33333333333333)
+index no : 11	subject 1 marks : 49	subject 2 marks : 65	subject 3 marks : 74	 (Total = 188) (Avarage = 62.666666666666664)
+index no : 12	subject 1 marks : 45	subject 2 marks : 95	subject 3 marks : 78	 (Total = 218) (Avarage = 72.66666666666667)
+index no : 13	subject 1 marks : 85	subject 2 marks : 45	subject 3 marks : 65	 (Total = 195) (Avarage = 65.0)
+index no : 14	subject 1 marks : 65	subject 2 marks : 35	subject 3 marks : 78	 (Total = 178) (Avarage = 59.333333333333336)

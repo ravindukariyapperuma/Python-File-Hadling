@@ -3,6 +3,7 @@ f=open("marks.txt","w")
 stu = 1
 sub = 1
 tot = 0
+avg = 0
 print("============================================")
 no_of_stu = int(input("Enter the number of students : "))
 no_of_sub = int(input("Enter the number of subjects : "))
@@ -15,12 +16,14 @@ while (stu <= no_of_stu):
     while (sub <= no_of_sub):
         print("subject "+ str(sub) )
         x = input("Enter the subject "+ str(sub)+" mark : ")
-        datamarks = ", "+str(x)
+        datamarks = "subject " + str(sub) + " marks : " + str(x) + "\t"
         f.write(datamarks)
         tot = tot + int(x)
         sub = sub + 1
     datatotal = " (Total = " + str(tot) + ")"
     f.write(datatotal)
+    dataavg = " (Avarage = " + str(tot/no_of_sub) + ")"
+    f.write(dataavg)
     f.write("\n")
     tot = 0
     sub = 1
