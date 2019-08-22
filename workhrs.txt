@@ -1,0 +1,6 @@
+NAME		Hrs
+Janaka		15
+Sameera		22
+Hasitha		21
+LAl		34
+Gayan		27
