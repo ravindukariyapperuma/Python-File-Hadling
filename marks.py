@@ -1,14 +1,16 @@
 
 f=open("marks.txt","w")
-stu = 0
+stu = 1
 sub = 1
 tot = 0
-print("After enter all students marks then enter index no 0 for finish program")
+print("============================================")
+no_of_stu = int(input("Enter the number of students : "))
 no_of_sub = int(input("Enter the number of subjects : "))
-print("===================================")
-index_no = int(input("Enter the student index no : "))
-while (index_no != 0):
-    dataindex = "index no : " + str(index_no)
+print("============================================")
+
+while (stu <= no_of_stu):
+    index_no = int(input("Enter the student index no : "))
+    dataindex = "index no : " + str(index_no)+ "\t"
     f.write(dataindex)
     while (sub <= no_of_sub):
         print("subject "+ str(sub) )
@@ -17,10 +19,12 @@ while (index_no != 0):
         f.write(datamarks)
         tot = tot + int(x)
         sub = sub + 1
+    datatotal = " (Total = " + str(tot) + ")"
+    f.write(datatotal)
     f.write("\n")
+    tot = 0
     sub = 1
     stu = stu + 1
-    print("===================================")
-    index_no = int(input("Enter the student index no : "))
+    print("============================================")
 f.close()
     

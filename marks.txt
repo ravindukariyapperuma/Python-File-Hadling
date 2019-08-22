@@ -1,3 +1,1 @@
-index no : 1, 85, 45, 95
-index no : 2, 75, 65, 42
-index no : 3, 75, 62, 45
+index no : 1	, 10, 20 (Total = 30)
